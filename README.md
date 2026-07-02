@@ -1,7 +1,7 @@
 
 ![logo_Eutropy](https://github.com/user-attachments/assets/c05c99e0-3ba7-4de3-8d75-0611ff5eb493)
 
-# EUTROPY
+# [EUTROPY](https://doi.org/10.1016/j.softx.2025.102430)
 
 Eutrophication, Nutrient Transport, and Recycling Model for Aquatic Systems Optimized in Python combines a bentho-pelagic kinetic modeling component with a transport subroutine built on a box model framework using Just-in-Time compilation through [Numba](https://numba.pydata.org/) (a Python library). 
 * This approach significantly reduce computational time, particularly during model calibration and extended simulation runs. It includes comprehensive biogeochemical processes and allows integration with parameter estimation tools (such as [PEST](https://pesthomepage.org/) and [PEST++](https://github.com/usgs/pestpp)).
@@ -97,6 +97,8 @@ Scripts for visualizing:
 
 ## References
 * Python Software Foundation. (2020). Python Language Reference, version 3.9. Available at https://www.python.org/.
+* Kaynaroglu, B., Razinkovas-Baziukas, A., Idzelyte, R., Tiskus, E., Zilius, M., Mezine, J. and Umgiesser, G., EUTROPY: A Python JIT optimized software for simulating eutrophication, nutrient transport, and recycling in aquatic systems. SoftwareX 32 (2025) 102430, https://doi.org/10.1016/j.softx.2025.102430.
+* Kaynaroglu, B., Zilius, M., Idzelyte, R., Razinkovas-Baziukas, A. and Umgiesser, G., Simplifying the calibration of ecological models by using the Parameter Estimation program (PEST): the Curonian Lagoon case. Ecological Informatics 90 (2025) 103213, https://doi.org/10.1016/j.ecoinf.2025.103213.
 * Lam, S. K., Pitrou, A., & Seibert, S. (2015). Numba: A LLVM-based Python JIT Compiler. Proceedings of the Second Workshop on the LLVM Compiler Infrastructure in HPC. https://doi.org/10.1145/2833157.2833162.
 * Harris, C. R., Millman, K. J., van der Walt, S. J., et al. (2020). Array programming with NumPy. Nature, 585, 357–362. https://doi.org/10.1038/s41586-020-2649-2.
 * McKinney, W. (2010). Data Structures for Statistical Computing in Python. Proceedings of the 9th Python in Science Conference, 51-56. https://doi.org/10.25080/Majora-92bf1922-00a.
