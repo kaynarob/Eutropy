@@ -76,8 +76,10 @@ py -3.9 Eutropy.py
 
 ### Results Visualization
 
-Web-based platform for visualizing:
-* [Model outputs with statistics.](http://laguna.ku.lt:3838/sample-apps/EUTROPY/)
+[Web-based platform for EUTROPY](https://laguna.ku.lt/eutropy/):
+* Model configuration.
+* Model run.
+* Model outputs with statistics.
 
 Scripts for visualizing:
 
